@@ -2,4 +2,4 @@ FROM almalinux:9
 ENV course="Devops" \
     duration="120HRS" \
     Trainer="siva" 
-RUN sleep 100 
+RUN sleep 10
