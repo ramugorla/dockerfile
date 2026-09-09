@@ -13,5 +13,6 @@ ARG version
 FROM almalinux:${version:-9}
 ARG USERNAME=laxman
 ENV USERNAME=${USERNAME}
+#ENV USERNAME=$USERNAME
 RUN echo "Hello ${USERNAME}, Base version ${version}" > /tmp/devops.txt
 CMD ["sleep", "100"]
